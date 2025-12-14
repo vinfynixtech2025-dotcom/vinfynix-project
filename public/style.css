@@ -1,0 +1,27 @@
+/* --- Base Styles and Variables --- */
+:root {
+    --color-primary: #003366; /* Deep Navy Blue */
+    --color-accent: #FFC300; /* Gold */
+}
+
+/* FIX: Prevents horizontal scroll from animations and off-screen menu */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: #333; 
+    scroll-behavior: smooth;
+}
+
+.bg-primary { background-color: var(--color-primary); }
+.text-primary { color: var(--color-primary); }
+.bg-accent { background-color: var(--color-accent); }
+.text-accent { color: var(--color-accent); }
+.border-primary { border-color: var(--color-primary); }
+
+/* Ensure this path matches where your hero image actually is! */
+.hero-bg {
+    background-image: url('/images/herobaground.jpg'); 
+    background-size: cover;
+    background-position: center;
+}

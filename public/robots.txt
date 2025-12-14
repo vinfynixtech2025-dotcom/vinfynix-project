@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vinfynix-project.vercel.app/sitemap.xml
